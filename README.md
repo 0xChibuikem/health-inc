@@ -1,4 +1,4 @@
-# Health Insurance Smart Contract
+# Health Inc Smart Contract
 A decentralized Clarity-based smart contract to verify health insurance coverage, automate claims processing, and manage insurance plans. This project aims to reduce administrative costs and prevent fraud in the health insurance industry by using blockchain technology for transparency and automation.
 
 Features
@@ -84,23 +84,3 @@ View Claim Details:
 Retrieve information on a specific claim using the get-claim function.
 Development Workflow
 The contract is split into six commits to ensure a smooth development process:
-
-- Commit 1: Define constants and data variables.
-- Commit 2: Add insurance plan registration logic.
-- Commit 3: Implement insurance status retrieval.
-- Commit 4: Implement claim submission logic.
-- Commit 5: Add claim approval logic.
-- Commit 6: Implement claim retrieval functionality.
-
-
-Joint PRs
-PR 1: Contains commits 1-3, which focus on setting up the foundational components of the contract, including constants, data variables, and the core insurance registration functionality.
-PR 2: Contains commits 4-6, which extend the contract's capabilities by adding claim submission, approval, and retrieval functionalities.
-Future Enhancements
-Enhanced Claim Validation: Implement checks for duplicate claims.
-Multi-Signature Approvals: Allow multiple entities to approve high-value claims.
-Insurance Plan Upgrades: Enable users to update their insurance plans to increase coverage.
-License
-
-
-This project is licensed under the MIT License. See the LICENSE file for details.
